@@ -1,0 +1,117 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    border-left: solid 3px #171717;
+    margin-bottom: 10px;
+    padding-left: 4px;
+}
+
+.title {
+    padding-bottom: 30px;
+    border-bottom: solid 2px #DFE2E2;
+}
+
+.title h1 {
+    padding-bottom: 24px;
+}
+
+.title p {
+    color: #494A4A;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sidebar {
+    border-right: solid 2px #DFE2E2;
+    width: 350px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.skills>div {
+    padding-bottom: 15px;
+
+}
+
+.bar {
+    height: 10px;
+    background-color: #DFE2E2;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 50px;
+    margin-top: 6px;
+}
+
+.bar>div {
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+    
+}
+
+.sidebar>div {
+    margin-bottom: 50px;
+}
+
+.info>p {
+    padding-bottom: 4px;
+}
+
+.degree {
+    border-bottom: solid 2px #DFE2E2;
+}
+
+.education {
+    border-bottom: solid 2px #DFE2E2;
+}
+
+.employment {
+    border-bottom: none;
+}
+
+.space {
+    padding: 20px 0px 20px 0;
+    margin-left: 30px;
+}
+
+.education-entry, .job-entry {
+    margin-bottom: 16px;
+}
+.education-entry> h3, .job-entry> h3 {
+    display: flex;
+    justify-content: space-between;
+}
+.education-entry >h3 > span, .job-entry >h3>span { font-size: 14px;}
+.data {
+    /* color: #126464; */
+    font-size: 12px;
+    /* color: #878787; */
+    font-weight: 300;
+    /* padding-top: 7px; */
+    padding-bottom: 3px;
+}
+
+.description {
+    padding-top: 4px;
+    /* padding-bottom: 15px; */
+}
